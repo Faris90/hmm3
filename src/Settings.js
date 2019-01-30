@@ -11,7 +11,7 @@ const value = Object.seal({
     listeningPort: 3000,
 
     serverUpdateFrequency: 25,
-    serverName: "Agaruto FFA",
+    serverName: "Agaruto Experimental",
     serverGamemode: "FFA",
     serverChatEnabled: false,
 
@@ -47,7 +47,7 @@ const value = Object.seal({
     virusMaxCount: 90,
     virusSize: 100,
     virusFeedTimes: 7,
-    virusPushing: false,
+    virusPushing: true,
     virusSplitBoost: 780,
     virusPushBoost: 120,
     virusMonotonePops: false,
@@ -58,7 +58,7 @@ const value = Object.seal({
     ejectedCellBoost: 780,
 
     mothercellSize: 149,
-    mothercellCount: 0,
+    mothercellCount: 5,
     mothercellPassiveSpawnChance: 0.05,
     mothercellActiveSpawnSpeed: 1,
     mothercellPelletBoost: 90,
